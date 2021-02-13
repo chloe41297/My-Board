@@ -49,7 +49,7 @@ const dateTitle = dateContainer.querySelector("h2");
 			return ("FRI");
 		} else if (day === 6){
 			return ("SAT");
-		} else if (day === 7){
+		} else if (day === 0){
 			return ("SUN");
 		}
 	}
