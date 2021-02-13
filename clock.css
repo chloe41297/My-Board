@@ -1,0 +1,136 @@
+body{
+	background-color: #cdd0cb;
+	font-family: 'Raleway', sans-serif
+
+}
+h1{
+	color: #f7f7e8;
+	font-size: 100px;
+	position: absolute;
+	top: 20px;
+	left:70px;
+	background-color: #9dad7f;
+	padding: 0px 20px 0px 20px;
+	box-shadow: 5px 5px #7f8c8d;
+}
+form{
+	font-size: 40px;
+}
+
+h4{
+	position: absolute;
+	top: 280px;
+	left:70px;
+	font-size: 90px;
+	background-color: #7c9473;
+	padding: 5px 20px 5px 20px;
+	box-shadow: 5px 5px #7f8c8d;
+
+
+}
+
+ul{
+	list-style-type: none;
+}
+.form, .greeting{
+	display: none;
+
+}
+
+.showing{
+	display: block;
+}
+
+@keyframes fadeIn{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+.bgImage{
+	width: 40%;
+	height: 60%;
+	z-index: -1;
+	animation: fadeIn 0.5s linear;
+	position: absolute;
+	top: 70px;
+	left:760px;
+	background-color: #ecf0f1;
+	padding: 15px 15px 120px 15px;
+	box-shadow: 5px 5px #7f8c8d;
+}
+.weatherImage{
+	position: absolute;
+	top: 220px;
+	left:30px;
+	width: 20%;
+	height: 20%;
+}
+.js-weather{
+	color: #222f3e;
+	font-size: 30px;
+	position: absolute;
+	top: 270px;
+	left:300px;
+	text-align: center;
+
+}
+.js-date{
+	position: absolute;
+	top: 110px;
+	left: 540px;
+	font-size: 30px;
+	background-color: #557174;
+	padding: 0px 50px 0px 50px;
+	margin: 0px;
+	box-shadow: 5px 5px #7f8c8d;
+
+
+}
+.js-toDoForm{
+	position: absolute;
+	top: 540px;
+	left:250px;
+	color: black;
+
+}
+
+
+.js-toDoList{
+	position: absolute;
+	top: 580px;
+	left:150px;
+	font-size: 25px;
+
+
+}
+
+.js-toDoFormWords{
+	border: none;
+	background: transparent;
+	font-size: 20px;
+	text-align: center;
+}
+
+.delBtn{
+	border: none;
+	background: transparent;
+	color: red;
+}
+.js-formBox{
+	border: none;
+	background: transparent;
+	font-size: 20px;
+	text-align: center;
+}
+.js-form{
+	position: absolute;
+	top: 400px;
+	left:250px;
+	color: black;
+}
+.temp{
+	font-size: 30px
+}
